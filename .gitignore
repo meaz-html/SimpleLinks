@@ -25,4 +25,8 @@ _site/
 *.log
 
 # TypeScript
-*.tsbuildinfo   
+*.tsbuildinfo
+
+.vs/
+bin/
+obj/ 

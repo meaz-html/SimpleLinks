@@ -1,0 +1,34 @@
+div {
+    background-color: #000000;
+}
+
+/* Page background and text color */
+html, body {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+/* Ensure common text elements inherit the white color */
+h1, h2, h3, h4, h5, h6, p, span, li, div {
+    color: inherit;
+}
+
+/* Unvisited link */
+a:link {
+    color: white;
+}
+
+/* Visited link */
+a:visited {
+    color: white;
+}
+
+/* Hover effect */
+a:hover {
+    color: white;
+}
+
+/* Active link */
+a:active {
+    color: white;
+}   

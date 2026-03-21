@@ -1,0 +1,53 @@
+@import url(https://fonts.bunny.net/css?family=caveat:700);
+
+div {
+    background-color: #000000;
+}
+
+/* Page background and text color */
+html, body {
+    background-color: #000000;
+    color: #ffffff;
+    /* use the imported Caveat font for the whole page */
+    font-family: 'Caveat', cursive;
+    font-weight: 700;
+    /* slightly larger, but not too large */
+    font-size: 18px;
+    /* center all page content both horizontally and vertically */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+    text-align: center;
+}
+
+/* Ensure common text elements inherit the white color */
+h1, h2, h3, h4, h5, h6, p, span, li, div {
+    color: inherit;
+}
+
+/* Make sure all link states (including focus) are white */
+a, a:link, a:visited, a:hover, a:active, a:focus {
+    color: #ffffff;
+}
+
+/* Center images horizontally */
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    /* Make profile images circular */
+    border-radius: 50%;
+    object-fit: cover;
+    /* size matching the updated HTML attributes; responsive fallback */
+    width: 220px;
+    height: 220px;
+    max-width: 60vw;
+}
+
+/* Fallback: center images by centering their container */
+.img-center {
+    text-align: center;
+}
