@@ -51,3 +51,11 @@ img {
 .img-center {
     text-align: center;
 }
+
+/* Larger text for the About page only */
+.about-container {
+    font-size: 20px; /* slightly larger than the site base */
+    line-height: 1.5;
+    max-width: 70ch;
+    padding: 1rem;
+}
