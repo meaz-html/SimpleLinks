@@ -2,6 +2,7 @@
 
 # Simple Links
 <p>Simple Links is a Astro Template that contains just CSS and HTML, Its for people who dont know much programming but HTML (and maybe CSS), and If you acquire new skills from time to time, no worries!, just add what you know, and it will be better!</p>
+<a href="https://simple-links-demo.vercel.app">You can view the demo here</a>
 
 <p>In order to use this template, you must have:</p>
 <ul>
