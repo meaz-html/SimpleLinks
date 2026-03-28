@@ -30,6 +30,23 @@ npm run dev
 
 <p>..and Congrats, you did it!</p>
 
+## Or...
+<p>You can fork this repo, then clone using git:</p>
+<pre><code>git clone https://github.com/meaz-html/SimpleLinks.git
+</code></pre>
+<p>After that, do:</p>
+</code><pre><code>#cd into the folder you cloned into
+cd [YOUR_PATH]
+# Install Astro
+npm install astro
+# Install Dependencies
+npm install
+# Start the dev server
+npm run dev
+</code></pre>
+
+<p>Then you can deploy into Vercel or Netlify with your public repo and should be working fine, otherwise, please see "Important" below<p>
+
 ## Important
 Please Remember that when deploying it from a repo using a deployment service (eg, Vercel), you might encounter a error with npm, if so, please check your .gitignore file and then do:
 
