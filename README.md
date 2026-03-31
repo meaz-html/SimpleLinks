@@ -32,7 +32,7 @@ npm run dev
 
 ## Or...
 <p>You can fork this repo, then clone using git:</p>
-<pre><code>git clone https://github.com/meaz-html/SimpleLinks.git
+<pre><code>git clone https://github.com/[YOUR-USER]/[YOUR-FORKED-REPO]
 </code></pre>
 <p>After that, do:</p>
 </code><pre><code>#cd into the folder you cloned into
