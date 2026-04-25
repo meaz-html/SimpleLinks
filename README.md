@@ -16,15 +16,15 @@
 ## Installation
 <p>To install it:</p>
 
-<pre><code># Run this command and follow instructions
+<pre><code>- Run this command and follow instructions
 npm create astro@latest -- --template meaz-html/SimpleLinks
 
-# If you skipped installing dependencies, run
+- If you skipped installing dependencies, run
 cd [YOUR_PATH] (This should be first)
 And then
 npm install
 
-# Now start the dev server
+- Now start the dev server
 npm run dev   
 </code></pre>
 
@@ -35,13 +35,13 @@ npm run dev
 <pre><code>git clone https://github.com/[YOUR-USER]/[YOUR-FORKED-REPO]
 </code></pre>
 <p>After that, do:</p>
-</code><pre><code>#cd into the folder you cloned into
+<pre><code>- cd into the folder you cloned into:
 cd [YOUR_PATH]
-# Install Astro
+- Install Astro:
 npm install astro
-# Install Dependencies
+- Install Dependencies:
 npm install
-# Start the dev server
+- Start the dev server:
 npm run dev
 </code></pre>
 
@@ -50,17 +50,17 @@ npm run dev
 ## Important
 Please Remember that when deploying it from a repo using a deployment service (eg, Vercel), you might encounter a error with npm, if so, please check your .gitignore file and then do:
 
-<pre><code># Install git-filter-repo via Mac
+<pre><code>- Install git-filter-repo via Mac
 brew install git-filter-repo
 
-# Or via pip (with python)
+- Or via pip (with python)
 pip3 install git-filter-repo
 
-# After that, run
+- After that, run
 git filter-repo --invert-paths --path PATH-TO-YOUR-FILE-YOU-ADDED-TO-.GITIGNORE
 </code></pre>
 
-And then after redeploying (Remember to use the latest branch!), it should sucessfully work now.
+And then after redeploying (Remember to use the latest commit!), it should sucessfully work now.
 
 ## Credits
 
